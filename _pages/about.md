@@ -2,7 +2,7 @@
 layout: about
 title: Over ons 
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Veel lekker bier.
 
 profile:
   align: right
