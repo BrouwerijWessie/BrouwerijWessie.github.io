@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Skuurskuumer 
+description: Een pittig lekker biertje
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: 2022
 ---
 
 Every project has a beautiful feature showcase page.
