@@ -7,7 +7,7 @@ subtitle: Veel lekker bier.
 profile:
   align: right
   image: kerk_nes.jpeg
-  image_cicular: true # crops the image to make it circular
+  image_cicular: true #t crops the image to make it circular
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
