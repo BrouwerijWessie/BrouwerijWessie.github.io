@@ -1,1 +1,1 @@
-De website van Brouwerij Wessie.
+De website van Brouwerij Wessie. Bier met passie.
