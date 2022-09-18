@@ -1,1 +1,1 @@
-De website van Brouwerij wessie.
+De website van Brouwerij Wessie.
