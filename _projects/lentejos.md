@@ -4,7 +4,7 @@ title: Lente
 description: Op de brouwmeester
 img: /assets/img/bier/WessieLenteBrouwmeesterPapLogo.png
 importance: 1
-category: 2019
+category: 2119
 ---
 
 <div class="row">
