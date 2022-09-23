@@ -4,7 +4,7 @@ title: Hopfen Weisse
 description: Alpen-weide aroma's
 img: /assets/img/bier/WessieHopfenWeisseLogo.png
 importance: 1
-category: 201x
+category: 2018
 ---
 
 <div class="row">

@@ -4,7 +4,7 @@ title: Blonde zot
 description: Eigenwijs bier
 img: /assets/img/bier/WessieZotLogo.png
 importance: 1
-category: 201x
+category: 2016
 ---
 
 <div class="row">

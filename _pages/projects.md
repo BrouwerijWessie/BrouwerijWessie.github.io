@@ -5,7 +5,7 @@ permalink: /onzebieren/
 description: De bieren van Brouwerij Wessie, gebrouwen met passie en liefde in de schuur.
 nav: true
 nav_order: 2
-display_categories: [2022, 2020, 2019, 2018, 2017, 2016, 201x]
+display_categories: [2022, 2020, 2019, 2018, 2017, 2016]
 horizontal: false
 ---
 

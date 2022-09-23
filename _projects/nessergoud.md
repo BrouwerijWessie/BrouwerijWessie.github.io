@@ -4,7 +4,7 @@ title: Nesser Goud
 description: Herbergt de ziel van Nes
 img: /assets/img/bier/WessieNesserGoudLogo.png
 importance: 1
-category: 201x
+category: 2018
 ---
 
 <div class="row">

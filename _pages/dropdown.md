@@ -1,11 +1,13 @@
 ---
 layout: page
 title: submenus
-nav: false 
-nav_order: 6
+nav: true 
+nav_order: 3
 dropdown: true
 children: 
     - title: divider
     - title: Onze Bieren
       permalink: /onzebieren/
+    - title: Nieuws
+      permalink: /nieuws/
 ---
