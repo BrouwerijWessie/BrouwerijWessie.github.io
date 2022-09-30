@@ -6,7 +6,7 @@ inline: false
 ---
 
 
-24 September 2022 was het zover, na maanden van voorbereiding, proefbrouwsels, finetunen en selecteren van het beste brouwsel. 9 hobbybrouwers en maar liefst 16 bieren werden daar aan de vak jury voorgeschoteld. (zie voorgaande nieuwspost over de selectie voor de inzending van Wessie)
+24 September 2022 was het zover, na maanden van voorbereiding, proefbrouwsels, finetunen en selecteren van het beste brouwsel. 9 hobbybrouwers en maar liefst 16 bieren werden daar aan de vak jury voorgeschoteld. Zie [voorgaande nieuwspost](/news/bierproeven/) over de selectie voor de inzending van Wessie
 
 > Veel positieve en lovende kritiek werd gegeven, en het gerstenat werd binnen een oogwenk volledig uit het glas genuttigd.
 > — Brouwer Bram Boelrijk
@@ -14,7 +14,7 @@ inline: false
 De hele dag door konden bierliefhebbers, belangstellenden, vrienden en familie langskomen om de verschillende bieren te proeven, en aan de ambiance van proeflokaal Gerrit, in de voormalige bibliotheek, te snuffelen. Ook bij de stand van Wessie werd eenieder warm ontvangen, voorgesteld aan de mooie bieren en het verhaal daarachter, om vervolgens de bieren uiteraard ook te proeven en over tong en smaakpapillen te laten rollen. Veel positieve en lovende kritiek werd gegeven, en het gerstenat werd binnen een oogwenk volledig uit het glas genuttigd.
 
 <video width="400" height="320" controls>
-  <source src="../../assets/video/geknipt_gerrit.mov" type="video/mov">
+  <source src="../../assets/video/geknipt_gerrit.mp4" type="video/mp4">
 </video>
 
       
