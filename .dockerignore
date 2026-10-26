@@ -1,0 +1,7 @@
+.git
+.bundle
+.cache
+_site
+_publish
+vendor
+tmp
