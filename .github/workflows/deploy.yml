@@ -26,7 +26,10 @@ jobs:
         with:
           bundler-cache: true
       - name: Install image converter
-        run: sudo apt-get update && sudo apt-get install --yes imagemagick
+        timeout-minutes: 3
+        run: |
+          sudo apt-get update -o Acquire::Retries=2 -o Acquire::http::Timeout=30
+          sudo apt-get install --yes --no-install-recommends -o Acquire::Retries=2 -o Acquire::http::Timeout=30 imagemagick
       - name: Audit Ruby dependencies
         run: bundle exec bundler-audit check --update
       - name: Build website
