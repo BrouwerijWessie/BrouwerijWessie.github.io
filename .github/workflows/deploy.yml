@@ -48,7 +48,7 @@ jobs:
     needs: build
     if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 20
     permissions:
       contents: write
       pages: write
@@ -79,9 +79,16 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           deployed_sha=$(git -C _publish rev-parse HEAD)
+          result=$(gh api "repos/${GITHUB_REPOSITORY}/pages/builds/latest")
+          if jq -e --arg sha "$deployed_sha" '.commit == $sha and .status == "built"' <<< "$result" >/dev/null; then
+            echo 'This website commit is already published.'
+            exit 0
+          fi
           gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
-          for attempt in $(seq 1 60); do
+          # The image-heavy site can take over six minutes for Pages to publish.
+          for attempt in $(seq 1 180); do
             result=$(gh api "repos/${GITHUB_REPOSITORY}/pages/builds/latest")
+            jq -r '"Pages status: \(.status), commit: \(.commit)"' <<< "$result"
             if jq -e --arg sha "$deployed_sha" '.commit == $sha and .status == "built"' <<< "$result" >/dev/null; then
               echo 'GitHub Pages published successfully.'
               exit 0
@@ -93,4 +100,5 @@ jobs:
             sleep 5
           done
           echo 'Timed out waiting for GitHub Pages publication.' >&2
+          jq '{commit, status, error}' <<< "$result" >&2
           exit 1
